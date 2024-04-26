@@ -1,0 +1,17 @@
+﻿@model HomeVM
+
+
+<ul>
+
+	@foreach (var item in Model.Students)
+	{
+		<li>@item.FullName</li>
+	}
+
+
+	<h1>@Model.Book.Name</h1>
+
+</ul>
+
+
+
