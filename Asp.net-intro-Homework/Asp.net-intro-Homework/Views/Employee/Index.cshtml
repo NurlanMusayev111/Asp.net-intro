@@ -1,0 +1,8 @@
+﻿@model List<EmployeeVM>
+
+@foreach (var item in Model)
+{
+	<li>@(item.Name + "-" +  item.Surname +  "-" + item.Age + "-" + item.Salary)</li>
+}
+
+

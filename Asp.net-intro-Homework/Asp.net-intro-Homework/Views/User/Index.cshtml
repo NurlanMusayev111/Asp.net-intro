@@ -1,0 +1,9 @@
+﻿@model List<UserVM>
+
+
+@foreach (var item in Model)
+{
+	<li>@(item.FullName + " - " + item.Address + " - " + item.Email + " - " + item.Age)</li>
+}
+
+

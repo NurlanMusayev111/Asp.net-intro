@@ -1,0 +1,8 @@
+﻿@model List<ProductVM>
+
+
+
+@foreach (var item in Model)
+{
+	<li>@(item.Name + "-" + item.Count + "-" + item.Price + "-" + item.Description)</li>
+}
